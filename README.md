@@ -1,15 +1,19 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- To generate README.md use devtools::build_readme() -->
-
-# briefparser
-
 <!-- badges: start -->
 
-![License:Proprietary](https://img.shields.io/badge/license-Proprietary-red.svg)
+<figure>
+<img src="https://img.shields.io/badge/license-Proprietary-red.svg"
+alt="License:Proprietary" />
+<figcaption aria-hidden="true">License:Proprietary</figcaption>
+</figure>
+
 <!-- badges: end -->
 
-## Package Description
+# briefparser Package Suite
+
+## Description
 
 The `briefparserpublic` package is a public version of the `briefparser`
 suite, designed for the analysis of BRIEF (Behavior Rating Inventory of
@@ -62,24 +66,28 @@ These packages are not intended for clinical interpretation.
 
 ### Publications
 
-Here are publications where the `briefparser` packages have been used: -
-<https://doi.org/10.1016/j.bbih.2024.100857>
+Here are publications where the `briefparser` packages have been used:
+
+- Buer S, Hagen BI, Søraas A, et al. Executive deficits after SARS-CoV-2
+  infection: A cross-sectional population study. *Brain, Behavior, &
+  Immunity - Health*. 2024;41:100857.
+  <doi:%5B10.1016/j.bbih.2024.100857>\](<https://doi.org/10.1016/j.bbih.2024.100857>)
 
 ### Citing package
 
-If you use `briefparser` in your research, please cite it as follows:
+If you use packages from the `briefparser` suite in your research,
+please cite the following:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxx.svg)](https://doi.org/10.5281/zenodo.xxx)
 
 Example BibTeX entry:
 
 ``` bibtex
-@software{Anders B. Nygaard_2023_XXXXXXX,
+@software{,
   author       = {Anders B. Nygaard},
-  title        = {},
+  title        = {briefparser: R-package Suite for Analysis of BRIEF Data},
   year         = {2025},
   publisher    = {GitHub},
-  journal      = {GitHub repository},
   version      = {v1.0.0},
   doi          = {10.5281/zenodo.xxx},
   url          = {https://github.com/ncc-study/briefparserpublic}
