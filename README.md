@@ -5,8 +5,8 @@
 
 <figure>
 <img src="https://img.shields.io/badge/license-Proprietary-red.svg"
-alt="License:Proprietary" />
-<figcaption aria-hidden="true">License:Proprietary</figcaption>
+alt="License:P" />
+<figcaption aria-hidden="true">License:P</figcaption>
 </figure>
 
 <!-- badges: end -->

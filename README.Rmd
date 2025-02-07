@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 
-![License:Proprietary](https://img.shields.io/badge/license-Proprietary-red.svg)
+![License:P](https://img.shields.io/badge/license-Proprietary-red.svg)
 
 <!-- badges: end -->
 
