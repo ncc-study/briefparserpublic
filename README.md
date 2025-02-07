@@ -3,11 +3,7 @@
 <!-- To generate README.md use devtools::build_readme() -->
 <!-- badges: start -->
 
-<figure>
-<img src="https://img.shields.io/badge/license-Proprietary-red.svg"
-alt="License:P" />
-<figcaption aria-hidden="true">License:P</figcaption>
-</figure>
+![](https://img.shields.io/badge/license-Proprietary-red.svg)
 
 <!-- badges: end -->
 
@@ -57,7 +53,7 @@ The `briefparser` suite includes:
 These packages incorporate norm data to aid in the scoring and
 interpretation of BRIEF scores through clinical T-score benchmarks.
 
-### Reference and Support
+### Usage and limitations
 
 While the `briefparser` packages are designed to enhance the utility of
 BRIEF instruments in research, users should consult the BRIEF manuals
@@ -71,14 +67,14 @@ Here are publications where the `briefparser` packages have been used:
 - Buer S, Hagen BI, Søraas A, et al. Executive deficits after SARS-CoV-2
   infection: A cross-sectional population study. *Brain, Behavior, &
   Immunity - Health*. 2024;41:100857.
-  <doi:%5B10.1016/j.bbih.2024.100857>\](<https://doi.org/10.1016/j.bbih.2024.100857>)
+  [doi:\[10.1016/j.bbih.2024.100857\](doi:%5B10.1016/j.bbih.2024.100857){.uri}](https://doi.org/10.1016/j.bbih.2024.100857)
 
 ### Citing package
 
 If you use packages from the `briefparser` suite in your research,
 please cite the following:
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxx.svg)](https://doi.org/10.5281/zenodo.xxx)
+[![](https://zenodo.org/badge/DOI/10.5281/zenodo.xxx.svg)](https://doi.org/10.5281/zenodo.xxx)
 
 Example BibTeX entry:
 
@@ -98,5 +94,5 @@ Example BibTeX entry:
 
 To comply with licensing agreements, only the censored
 `briefparserpublic` package is available publicly. For access to the
-complete `briefparser` packages, please contact me at
-<anders@anythings.no>.
+complete `briefparser` packages or any other questions, please contact
+me at <anders@anythings.no>.

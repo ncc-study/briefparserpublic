@@ -2,7 +2,7 @@
 
 Copyright (2024) Anders B. Nygaard (ANYthings). All rights reserved.
 
-This R package, named **briefparserpublic**, and the packages in the **briefparser** suite of packages, is proprietary software developed by Anders B. Nygaard (ANYthings). It is designed exclusively for processing BRIEF questionnaire data.
+This R package, named **briefparserpublic**, and packages in the **briefparser** suite of packages, is proprietary software developed by Anders B. Nygaard (ANYthings). It is designed exclusively for processing BRIEF questionnaire data.
 
 Any redistribution, use in source and binary forms, with or without modification, is strictly prohibited without the express written consent of Anders B. Nygaard (ANYthings).
 
@@ -15,6 +15,6 @@ This software incorporates functions from the **tidyverse** package, which is li
 
 This software is strictly intended for research or academic purposes only. It is not designed or intended to be used for any clinical purposes. Any use of this software for clinical purposes is strictly prohibited. The authors of this package assume no responsibility or liability for any misuse of the software in a clinical setting or for any violation of this condition. It is the user's responsibility to ensure that the software is used in accordance with its intended purpose and in compliance with all applicable laws and regulations.
 
-By using this R package, you confirm that you have obtained all necessary rights, approvals, and permissions to use the BRIEF-A tests, test protocols, test items, normative data, score reports, and other related materials. The authors of this package assume no responsibility or liability for any misuse of the BRIEF-A questionnaire, its reference data, or its interpretation manual, or for any violation of any rules, regulations, or laws by the users of this package. It is the user's responsibility to ensure compliance with all applicable laws and regulations regarding the use of the BRIEF questionnaires, its reference data, and its interpretation manuals.
+By using this R package, you confirm that you have obtained all necessary rights, approvals, and permissions to use the BRIEF tests, test protocols, test items, normative data, score reports, and other related materials. The authors of this package assume no responsibility or liability for any misuse of the BRIEF-A questionnaire, its reference data, or its interpretation manual, or for any violation of any rules, regulations, or laws by the users of this package. It is the user's responsibility to ensure compliance with all applicable laws and regulations regarding the use of the BRIEF questionnaires, its reference data, and its interpretation manuals.
 
-For more information on permissions and licensing for BRIEF-A, please visit [parinc.com/Resources/Permissions-and-licensing](https://www.parinc.com/Resources/Permissions-and-licensing).
+For more information on permissions and licensing for BRIEF, please visit [parinc.com/Resources/Permissions-and-licensing](https://www.parinc.com/Resources/Permissions-and-licensing).

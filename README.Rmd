@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 
-![License:P](https://img.shields.io/badge/license-Proprietary-red.svg)
+![](https://img.shields.io/badge/license-Proprietary-red.svg)
 
 <!-- badges: end -->
 
@@ -51,7 +51,7 @@ The `briefparser` suite includes:
 
 These packages incorporate norm data to aid in the scoring and interpretation of BRIEF scores through clinical T-score benchmarks.
 
-### Reference and Support
+### Usage and limitations
 
 While the `briefparser` packages are designed to enhance the utility of BRIEF instruments in research, users should consult the BRIEF manuals and associated literature for comprehensive guidance on interpretation. These packages are not intended for clinical interpretation.
 
@@ -59,13 +59,13 @@ While the `briefparser` packages are designed to enhance the utility of BRIEF in
 
 Here are publications where the `briefparser` packages have been used:
 
--   Buer S, Hagen BI, Søraas A, et al. Executive deficits after SARS-CoV-2 infection: A cross-sectional population study. *Brain, Behavior, & Immunity - Health*. 2024;41:100857. doi:[10.1016/j.bbih.2024.100857](https://doi.org/10.1016/j.bbih.2024.100857)
+-   Buer S, Hagen BI, Søraas A, et al. Executive deficits after SARS-CoV-2 infection: A cross-sectional population study. *Brain, Behavior, & Immunity - Health*. 2024;41:100857. [doi:[10.1016/j.bbih.2024.100857](doi:%5B10.1016/j.bbih.2024.100857){.uri}](<https://doi.org/10.1016/j.bbih.2024.100857>)
 
 ### Citing package
 
 If you use packages from the `briefparser` suite in your research, please cite the following:
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxx.svg)](https://doi.org/10.5281/zenodo.xxx)
+[![](https://zenodo.org/badge/DOI/10.5281/zenodo.xxx.svg)](https://doi.org/10.5281/zenodo.xxx)
 
 Example BibTeX entry:
 
@@ -83,4 +83,4 @@ Example BibTeX entry:
 
 ## Installation
 
-To comply with licensing agreements, only the censored `briefparserpublic` package is available publicly. For access to the complete `briefparser` packages, please contact me at [anders\@anythings.no](mailto:anders@anythings.no).
+To comply with licensing agreements, only the censored `briefparserpublic` package is available publicly. For access to the complete `briefparser` packages or any other questions, please contact me at [anders\@anythings.no](mailto:anders@anythings.no).
