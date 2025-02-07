@@ -1,0 +1,17 @@
+Package: briefparserpublic
+Type: Package
+Title: Public Version of the Briefparser Suite for Analyzing BRIEF Data
+Version: 0.1.0
+Author: c(
+    person("Anders", "Nygaard", , "anders@anythings.no", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-1922-0751")),
+    person("ANYthings", role = "cph")
+  )
+Description: The `briefparserpublic` package provides a public, censored version 
+    of the `briefparser` suite which is designed to facilitate the analysis of 
+    Behavior Rating Inventory of Executive Function (BRIEF) data. It offers utilities 
+    for calculating composite and subscale scores from questionnaire responses, raw scores, 
+    and T-scores, along with generating summary statistics.
+License: Proprietary
+Encoding: UTF-8
+LazyData: true
