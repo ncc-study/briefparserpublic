@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 
-![](https://img.shields.io/badge/license-Proprietary-red.svg)
+[![](https://zenodo.org/badge/DOI/10.5281/zenodo.14843391.svg)](https://doi.org/10.5281/zenodo.14843391) ![](https://img.shields.io/badge/license-Proprietary-red.svg)
 
 <!-- badges: end -->
 
@@ -59,13 +59,13 @@ While the `briefparser` packages are designed to enhance the utility of BRIEF in
 
 Here are publications where the `briefparser` packages have been used:
 
--   Buer S, Hagen BI, Søraas A, et al. Executive deficits after SARS-CoV-2 infection: A cross-sectional population study. *Brain, Behavior, & Immunity - Health*. 2024;41:100857. [doi:[10.1016/j.bbih.2024.100857](doi:%5B10.1016/j.bbih.2024.100857){.uri}](<https://doi.org/10.1016/j.bbih.2024.100857>)
+-   Buer S, Hagen BI, Søraas A, et al. Executive deficits after SARS-CoV-2 infection: A cross-sectional population study. *Brain, Behavior, & Immunity - Health*. 2024;41:100857. [doi:[10.1016/j.bbih.2024.100857](doi:%5B10.1016/j.bbih.2024.100857){.uri}](https://doi.org/10.1016/j.bbih.2024.100857)
 
 ### Citing package
 
 If you use packages from the `briefparser` suite in your research, please cite the following:
 
-[![](https://zenodo.org/badge/DOI/10.5281/zenodo.xxx.svg)](https://doi.org/10.5281/zenodo.xxx)
+[![](https://zenodo.org/badge/DOI/10.5281/zenodo.14843391.svg)](https://doi.org/10.5281/zenodo.14843391)
 
 Example BibTeX entry:
 
@@ -76,7 +76,7 @@ Example BibTeX entry:
   year         = {2025},
   publisher    = {GitHub},
   version      = {v1.0.0},
-  doi          = {10.5281/zenodo.xxx},
+  doi          = {10.5281/zenodo.14843391},
   url          = {https://github.com/ncc-study/briefparserpublic}
 }
 ```

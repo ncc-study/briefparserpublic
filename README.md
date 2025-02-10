@@ -3,6 +3,7 @@
 <!-- To generate README.md use devtools::build_readme() -->
 <!-- badges: start -->
 
+[![](https://zenodo.org/badge/DOI/10.5281/zenodo.14843391.svg)](https://doi.org/10.5281/zenodo.14843391)
 ![](https://img.shields.io/badge/license-Proprietary-red.svg)
 
 <!-- badges: end -->
@@ -76,7 +77,7 @@ Here are publications where the `briefparser` packages have been used:
 If you use packages from the `briefparser` suite in your research,
 please cite the following:
 
-[![](https://zenodo.org/badge/DOI/10.5281/zenodo.xxx.svg)](https://doi.org/10.5281/zenodo.xxx)
+[![](https://zenodo.org/badge/DOI/10.5281/zenodo.14843391.svg)](https://doi.org/10.5281/zenodo.14843391)
 
 Example BibTeX entry:
 
@@ -87,7 +88,7 @@ Example BibTeX entry:
   year         = {2025},
   publisher    = {GitHub},
   version      = {v1.0.0},
-  doi          = {10.5281/zenodo.xxx},
+  doi          = {10.5281/zenodo.14843391},
   url          = {https://github.com/ncc-study/briefparserpublic}
 }
 ```
