@@ -82,14 +82,17 @@ please cite the following:
 Example BibTeX entry:
 
 ``` bibtex
-@software{,
-  author       = {Anders B. Nygaard},
-  title        = {briefparser: R-package Suite for Analysis of BRIEF Data},
-  year         = {2025},
-  publisher    = {GitHub},
+@software{nygaard_2025_14843391,
+  author       = {Nygaard, Anders B.},
+  title        = {briefparser: R-package Suite for Processing and
+                   Scoring of BRIEF Questionnaire Data
+                  },
+  month        = feb,
+  year         = 2025,
+  publisher    = {Zenodo},
   version      = {v1.0.0},
   doi          = {10.5281/zenodo.14843391},
-  url          = {https://github.com/ncc-study/briefparserpublic}
+  url          = {https://github.com/ncc-study/briefparserpublic},
 }
 ```
 

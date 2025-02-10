@@ -3,8 +3,7 @@
 
 cff-version: 1.2.0
 title: >-
-  briefparserpublic: Tools for Processing and Scoring of
-  BRIEF Questionnaire Data
+  briefparser: R-package Suite for Processing and Scoring of BRIEF Questionnaire Data
 message: >-
   If you use this package, please cite it using the
   information below.
