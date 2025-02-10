@@ -8,7 +8,7 @@
 
 <!-- badges: end -->
 
-# briefparser Package Suite
+# briefparser Package Suite <img src="man/figures/logo.png" align="right" height="138" alt="" />
 
 ## Description
 
