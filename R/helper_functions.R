@@ -17,7 +17,6 @@ drop_brief_helper_variables <- function(data) {
       -dplyr::contains("incon_diff"),
       -dplyr::contains("incon_sum"),
       -dplyr::contains("holder_brief_q")
-      )
+    )
   data
 }
-

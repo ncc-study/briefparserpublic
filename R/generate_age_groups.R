@@ -7,7 +7,7 @@
 #'
 #' @examples
 #' generate_brief_a_dummy_data(1) %>%
-#'     generate_age_group_10()
+#'   generate_age_group_10()
 #'
 #' @import dplyr
 #'

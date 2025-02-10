@@ -11,9 +11,9 @@
 #'
 #' @examples
 #' generate_brief_a_dummy_data(1) %>%
-#'     generate_age_group_10() %>%
-#'     compute_brief_scores_raw() %>%
-#'     compute_brief_validity_scores()
+#'   generate_age_group_10() %>%
+#'   compute_brief_scores_raw() %>%
+#'   compute_brief_validity_scores()
 #'
 #' @import dplyr
 #'
@@ -26,7 +26,7 @@ compute_brief_validity_scores <- function(data, keep_calculations = FALSE, ...) 
     ) %>%
     mutate(
       # Censored
-      ) %>%
+    ) %>%
     mutate(
       # Censored
     ) %>%

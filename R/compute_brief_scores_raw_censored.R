@@ -169,7 +169,7 @@ compute_brief_scores_raw <- function(data,
       holder_brief_q75 = {{ brief_q75 }}
     ) %>%
     mutate(
-      score_xx_xx ={{ brief_qxx }} +
+      score_xx_xx = {{ brief_qxx }} +
         {{ brief_qxx }} +
         {{ brief_qxx }} +
         {{ brief_qxx }} +

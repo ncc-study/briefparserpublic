@@ -19,7 +19,7 @@ compute_brief_scores_cutoff <- function(data, cutoff = 0) {
     mutate(across(
       .cols = contains("score_t") & !contains("_cutoff"),
       .fns = ~ if_else(condition = . >= cutoff, true = 1, false = 0),
-      .names = "{.col}_cutoff_{cutoff}"))
+      .names = "{.col}_cutoff_{cutoff}"
+    ))
   data
 }
-
