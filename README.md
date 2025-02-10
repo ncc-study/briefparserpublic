@@ -15,7 +15,9 @@ The `briefparserpublic` package is a public version of the `briefparser`
 suite, designed for the analysis of BRIEF (Behavior Rating Inventory of
 Executive Function) data. This package is a censored version, omitting
 licensed information and norm data contained in the full `briefparser`
-packages, due to proprietary restrictions from the BRIEF manuals.
+packages, due to proprietary restrictions from the BRIEF manuals. Please
+note that `briefparserpublic` is not a functioning version of
+`briefparser`.
 
 ### Features
 
