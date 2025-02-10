@@ -10,7 +10,7 @@
 
 # briefparser Package Suite <img src="man/figures/logo.png" align="right" height="138" alt="" />
 
-## Description
+### Description
 
 The `briefparserpublic` package is a public version of the `briefparser`
 suite, designed for the analysis of BRIEF (Behavior Rating Inventory of
