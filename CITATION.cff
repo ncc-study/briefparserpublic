@@ -1,0 +1,29 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  briefparserpublic: Tools for Processing and Scoring of
+  BRIEF Questionnaire Data
+message: >-
+  If you use this package, please cite it using the
+  information below.
+type: software
+authors:
+  - orcid: 'https://orcid.org/0000-0003-1922-0751'
+    affiliation: Oslo University Hospital (OUH)
+    email: anders@anythings.no
+    family-names: Nygaard
+    given-names: Anders B.
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.14843391
+    description: v1.0.0
+repository-code: 'https://github.com/ncc-study/briefparserpublic'
+date-released: 2025-02-10
+keywords:
+  - R
+  - BRIEF
+  - Psychology
+  - Data Analysis
+license: Proprietary
