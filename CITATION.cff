@@ -3,7 +3,8 @@
 
 cff-version: 1.2.0
 title: >-
-  briefparser: R-package Suite for Processing and Scoring of BRIEF Questionnaire Data
+  briefparser: R-package Suite for Processing and Scoring of
+  BRIEF Questionnaire Data
 message: >-
   If you use this package, please cite it using the
   information below.
@@ -14,15 +15,17 @@ authors:
     email: anders@anythings.no
     family-names: Nygaard
     given-names: Anders B.
+  - given-names: Sofie
+    family-names: Buer
+    name-particle: S
 identifiers:
   - type: doi
     value: 10.5281/zenodo.14843391
     description: v1.0.0
 repository-code: 'https://github.com/ncc-study/briefparserpublic'
-date-released: 2025-02-10
 keywords:
   - R
   - BRIEF
   - Psychology
   - Data Analysis
-license: Proprietary
+date-released: '2025-02-10'

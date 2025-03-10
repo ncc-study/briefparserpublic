@@ -1,6 +1,8 @@
-#' Generate a dummy dataset for the Behavior Rating Inventory of Executive Function - Adult Version (BRIEF-A)
+#' Generate a dummy dataset for the Behavior Rating Inventory of Executive
+#'   Function - Adult Version (BRIEF-A)
 #'
-#' This function creates a dummy dataset with random values for the BRIEF-A item columns.
+#' This function creates a dummy dataset with random values for the BRIEF-A
+#'   item columns.
 #'
 #' @param n The number of rows to generate in the dataset
 #'

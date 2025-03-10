@@ -15,6 +15,8 @@
 #'
 #' @export
 compute_brief_scores_cutoff <- function(data, cutoff = 0) {
+  library(magrittr)
+  library(dplyr)
   data <- data %>%
     mutate(across(
       .cols = contains("score_t") & !contains("_cutoff"),

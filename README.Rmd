@@ -72,7 +72,8 @@ Example BibTeX entry:
 
 ```{bibtex}
 @software{nygaard_2025_14843391,
-  author       = {Nygaard, Anders B.},
+  author       = {Nygaard, Anders B. and
+                  Buer, Sofie},
   title        = {briefparser: R-package Suite for Processing and
                    Scoring of BRIEF Questionnaire Data
                   },

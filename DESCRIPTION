@@ -15,3 +15,6 @@ Description: The `briefparserpublic` package provides a public, censored version
 License: Proprietary
 Encoding: UTF-8
 LazyData: true
+Language: EN
+URL: https://github.com/annyg/briefparserpublic
+BugReports: https://github.com/annyg/briefparserpublic/issues
