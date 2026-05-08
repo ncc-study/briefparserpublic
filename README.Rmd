@@ -39,6 +39,38 @@ The `briefparser` suite facilitates comprehensive analysis of BRIEF assessments,
 
 The BRIEF instruments are tools within psychological assessment, targeted at evaluating executive functions like inhibition, shifting, emotional control, initiation, working memory, planning/organization, and monitoring. They encompass assessments for various demographics, including adults, adolescents, and children.
 
+### Quick start
+
+`briefparserpublic` exposes the API surface of the `briefparser` suite for citation and reference, but cannot run scoring itself — the norm tables and item-to-scale mappings are stripped. The example below shows the typical pipeline as it runs in any of the private parser packages. Substitute `<pkg>` with the package you have access to (`briefparserA`, `briefparser2self`, `briefparser2parent`, or `briefparser2teacher`) and `<suffix>` with the matching tag (`briefa`, `brief2self`, `brief2parent`, or `brief2teacher`).
+
+```{r quickstart, eval = FALSE}
+library(<pkg>)
+library(tidyverse)
+
+# 1. Generate a dummy dataset with 1000 respondents.
+#    A real dataset must contain an `age` column (and `gender` for BRIEF-2)
+#    plus item columns `brief_q01`–`brief_qNN`.
+data <- generate_<suffix>_dummy_data(1000)
+
+data_proc <- data |>
+    # 2. Compute raw subscale and composite scores from the item responses.
+    compute_<suffix>_scores_raw() |>
+    # 3. Derive the age band used as a lookup key into the norm tables.
+    #    BRIEF-2 packages use generate_age_group_youth();
+    #    briefparserA uses generate_age_group_10().
+    generate_age_group_youth(age = age) |>
+    # 4. Recode the gender column into the form used by the norm tables.
+    #    BRIEF-2 packages only — briefparserA is not sex-stratified.
+    generate_gender(sex = gender) |>
+    # 5. Convert raw scores to age- (and where applicable sex-) normed T-scores.
+    compute_<suffix>_scores_t() |>
+    # 6. Flag potentially invalid response patterns
+    #    (Inconsistency, Negativity, Infrequency).
+    compute_<suffix>_validity_scores()
+```
+
+The result, `data_proc`, keeps the original input columns and appends the raw subscale scores, T-scores, and validity flags as new columns. See each parser package's own README for an example tailored to that instrument.
+
 ### Current Supported Versions
 
 The `briefparser` suite includes:
