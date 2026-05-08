@@ -102,7 +102,7 @@ If you use packages from the `briefparser` suite in your research, please cite t
 
 Example BibTeX entry:
 
-```{bibtex}
+```bibtex
 @software{nygaard_2025_14843391,
   author       = {Nygaard, Anders B. and
                   Buer, Sofie},
