@@ -1,15 +1,14 @@
 **LICENSE STATEMENT**
 
-Copyright (2024) Anders B. Nygaard (ANYthings). All rights reserved.
+Copyright (2024-2026) Anders B. Nygaard. All rights reserved.
 
-This R package, named **briefparserpublic**, and packages in the **briefparser** suite of packages, is proprietary software developed by Anders B. Nygaard (ANYthings). It is designed exclusively for processing BRIEF questionnaire data.
+This R package, named **briefparserpublic**, and packages in the **briefparser** suite of packages, is proprietary software developed by Anders B. Nygaard. It is designed exclusively for processing BRIEF questionnaire data.
 
-Any redistribution, use in source and binary forms, with or without modification, is strictly prohibited without the express written consent of Anders B. Nygaard (ANYthings).
+Any redistribution, use in source and binary forms, with or without modification, is strictly prohibited without the express written consent of Anders B. Nygaard.
 
 The software is provided by the copyright holders and contributors "as is," and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose, are disclaimed. Under no circumstances shall the copyright owner or contributors be held liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.
 
 This software incorporates functions from the **tidyverse** package, which is licensed under the MIT License. The inclusion of these functions within this software does not imply endorsement by the authors of the tidyverse package.
-
 
 **DISCLAIMER**
 
